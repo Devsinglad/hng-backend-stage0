@@ -186,7 +186,7 @@ backend-wizards-stage0/
 
 Returns user profile information with a dynamic cat fact.
 
-**Endpoint**: `GET http://localhost:3000/me`
+**Endpoint**: `GET https://web-production-fc975.up.railway.app/me`
 
 **Response Status**: `200 OK`
 
@@ -220,21 +220,6 @@ Access-Control-Allow-Origin: *
 
 ---
 
-### GET /health
-
-Health check endpoint for monitoring server status.
-
-**Endpoint**: `GET http://localhost:3000/health`
-
-**Response Status**: `200 OK`
-
-**Response Body**:
-```json
-{
-  "status": "ok",
-  "timestamp": "2025-10-17T14:30:45.123Z"
-}
-```
 
 ---
 
