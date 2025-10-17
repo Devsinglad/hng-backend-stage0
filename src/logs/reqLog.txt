@@ -13,3 +13,6 @@
 20251017	00:15:44	866d5c83-a925-4126-8ce5-a40ae57ab82a	GET	undefined	/.well-known/appspecific/com.chrome.devtools.json
 20251017	00:15:52	b35a621c-2fc0-432c-b5ef-1fcfc60e1cc7	GET	undefined	/me
 20251017	00:15:52	2f20f732-8c98-4408-a687-9d2d961b6646	GET	undefined	/.well-known/appspecific/com.chrome.devtools.json
+20251017	01:55:18	9a15c14e-325b-4042-9b6f-4e74c995805a	GET	undefined	/me
+20251017	01:55:19	01573912-77ee-40ea-aa74-f59213ce4518	GET	undefined	/favicon.ico
+20251017	02:09:23	4833f307-f5f1-4daf-9e0a-3b530dcead5d	GET	undefined	/me

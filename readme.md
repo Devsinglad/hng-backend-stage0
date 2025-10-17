@@ -168,7 +168,6 @@ backend-wizards-stage0/
 │   │   └── interface.ts         # TypeScript interfaces
 │   └── routes/
 │       └── meRoutes.ts          # Route definitions
-├── dist/                        # Compiled JavaScript (generated)
 ├── node_modules/                # Dependencies
 ├── package.json                 # Project metadata & scripts
 ├── package-lock.json            # Dependency lock file
@@ -176,7 +175,6 @@ backend-wizards-stage0/
 ├── .env.example                 # Environment template
 ├── .gitignore                   # Git ignore rules
 ├── Procfile                     # Deployment configuration
-├── .nixpacks.toml               # PXXL deployment config
 └── README.md                    # This file
 ```
 
@@ -305,9 +303,6 @@ curl http://localhost:3000/me | jq
 ### Automated Testing Example
 
 ```bash
-# Using curl with response code check
-curl -w "\nStatus: %{http_code}\n" http://localhost:3000/me
-
 # Using curl with header inspection
 curl -i http://localhost:3000/me
 ```
@@ -336,18 +331,7 @@ git push origin main
 https://your-app-name.pxxl.app/me
 ```
 
-### Deploy to AWS EC2
 
-See [AWS_DEPLOYMENT.md](./AWS_DEPLOYMENT.md) for detailed instructions.
-
-### Deploy to Railway
-
-1. Push to GitHub
-2. Go to [Railway.app](https://railway.app)
-3. Create new project
-4. Connect GitHub repo
-5. Add environment variables
-6. Deploy
 
 ---
 
@@ -411,32 +395,8 @@ grep "error" error.log
 
 ---
 
-## 🤝 Contributing
 
-Contributions are welcome! Here's how:
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the ISC License - see the LICENSE file for details.
-
----
-
-## 👤 Author
-
-**Your Name**
-- Email: your.email@example.com
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn Profile]
-
----
 
 ## 📞 Support
 
