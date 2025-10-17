@@ -1,10 +1,10 @@
 import cors from "cors";
 import express from "express";
-import { logger } from "./src/middleware/logEvents";
-import corsOptions from "./src/config/corOption";
-import { config } from "./src/config/config";
-import errorHandler from "./src/middleware/errorHandler";
-import { user } from "./src/routes";
+import { logger } from "./middleware/logEvents";
+import corsOptions from "./config/corOption";
+import { config } from "./config/config";
+import errorHandler from "./middleware/errorHandler";
+import { user } from "./routes";
 import { NextFunction, Response, Request } from "express";
 import createHttpError from "http-errors";
 require('dotenv').config();
